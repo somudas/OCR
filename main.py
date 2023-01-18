@@ -11,5 +11,5 @@ img = cv2.cvtColor(img, cv2.COLOR_BGR2YUV_YV12)
 
 print(pytesseract.image_to_string(img))
 
-cv2.imshow('hemlo', img)
+cv2.imshow('image', img)
 cv2.waitKey(0)
